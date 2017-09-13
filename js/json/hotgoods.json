@@ -1,0 +1,45 @@
+{
+    "msg": "调用成功",
+    "code": "1",
+    "hotGoods": [
+        {
+            "id": "0084519fe7f942b6ae855ffa2c6c0d30",
+            "extra": null,
+            "creator": null,
+            "createDate": null,
+            "regenerator": null,
+            "updateDate": null,
+            "delFlag": 0,
+            "user": null,
+            "createUser": null,
+            "updateUser": null,
+            "goodsCode": "4468784",
+            "catalogCode": "1",
+            "goodsName": "戴尔DELL成就5468R-1605G 14英寸轻薄笔记本电脑(i5-7200U 4G 256GSSD FHD 指纹识别 Win10)金",
+            "goodsSource": 1,
+            "goodsPrice": 4550,
+            "discountPrice": 4550,
+            "goodsBrand": "戴尔（DELL）",
+            "isHot": 1,
+            "imagePath": "jfs/t5578/47/8359719609/186394/f49beb8f/597998e4Nc819e989.jpg",
+            "state": 1,
+            "param": null,
+            "goodsSale": {
+                "id": null,
+                "extra": null,
+                "creator": null,
+                "createDate": null,
+                "regenerator": null,
+                "updateDate": null,
+                "delFlag": 0,
+                "user": null,
+                "createUser": null,
+                "updateUser": null,
+                "goodsId": "0084519fe7f942b6ae855ffa2c6c0d30",
+                "salesNum": null,
+                "evaluateAmount": null,
+                "evaluateDegree": null
+            }
+        }
+    ]
+}
