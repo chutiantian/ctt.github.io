@@ -18,11 +18,12 @@ var option = {
     limit: '20',
 };
 //var posturl = baseUrl + 'goods/goodslist';
-var posturl='../js/json/product.json'
+var posturl='../js/json/product.json';
+var posturl1='../js/json/brand.json'
 function initall(opt) {
     opt.queryOption = true;
     opt.queryGoods = false;
-    getdata(posturl, opt, '', fillgoodsmenu);//获取json数据
+    getdata(posturl1, opt, '', fillgoodsmenu);//获取json数据
     function fillgoodsmenu(data) {
         if (option.unitprice) {
             var unitprice = GetQueryString('unitprice') ? (parseInt(GetQueryString('unitprice') * 0.8) + '-' + GetQueryString('unitprice')) : '';

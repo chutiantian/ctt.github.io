@@ -18,18 +18,18 @@ body {
     height: 484px;
     float: right;
 }
-
+ .store-price {
+    display: inline-block;
+    color:#999999;
+    float:right;
+	margin-top:10px;
+    text-decoration:line-through;
+}
 .swiper-container img {
     width: 980px;
     height: 484px;
 }
- .store-price {
-    display: inline-block;
-    width: 125px;
-    text-align: right;
-    color: #999999;
-    text-decoration: line-through;
-}
+
 .swiper-pagination {
     position: absolute;
     z-index: 20;
@@ -131,7 +131,7 @@ body {
     height: 140px;
 }
 
-.goods-item img {
+.goods-item .goods-img img {
     display: block;
     width: 147px;
     height: 114px;

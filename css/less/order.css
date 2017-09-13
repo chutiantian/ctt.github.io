@@ -59,6 +59,7 @@
   font-size: 14px;
   color: #000;
   font-weight: 500;
+      position: relative;
 }
 .search {
   float: right;
@@ -71,8 +72,8 @@
   font: 12px "microsoft yahei", Arial, Helvetica, sans-serif;
 }
 .order-box .icon-sousuo {
-  position: relative;
-  left: 930px;
+  position: absolute;
+  right: 20px;
   top: 2px;
   color: #0A93F0;
   cursor: pointer;

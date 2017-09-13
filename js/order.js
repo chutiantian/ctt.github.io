@@ -62,7 +62,7 @@ function init(opt){
 }
 // 向后台发送请求，重新渲染页面
  function request() {
-   var posturl = baseUrl+'order/queryOrderList';
+   var posturl = '../js/json/order.json'
    options = JSON.stringify(opt);
    getdata(posturl,opt,'',fillgoodsmsg);
    function fillgoodsmsg(data) {
